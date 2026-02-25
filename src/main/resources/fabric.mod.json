@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "holyworld-autoreply",
+  "version": "${version}",
+  "name": "HolyWorld AutoReply",
+  "description": "Auto reply mod for HolyWorld moderators during player checks",
+  "authors": ["HolyWorld Mod Team"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.holyworld.autoreply.HolyWorldAutoReply"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
